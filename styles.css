@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'BTHE';
+    src: url(BTHE.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-image: url(education.jpg);
+    background-size: cover;
+    background-attachment: center;
+    font-family: BTHE, Arial, Helvetica, sans-serif;
+}
+
+table {
+    border: 15px #A7AFCF double;
+    margin: auto;
+    margin-top: 25px;
+    width: 50%;
+    background-color: #2E4648;
+    padding: 5px;
+}
+
+th, td {
+    padding: 5px;
+    color: white;
+    border: ;
+}
+
+th {
+    text-align: center;
+    border: 3px #A7AFCF solid;
+}
+
+td:nth-child(even){
+    background-color: #48665c;
+}
+
+h1 {
+    text-align: center;
+}
